@@ -58,7 +58,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
      - Revenue trends across branches and categories.
-     -        ```sq
+     -        ```SQL
                SELECT *,
                    EXTRACT(YEAR FROM TO_DATE(date, 'DD/MM/YY')) as formated_date
                FROM walmart
